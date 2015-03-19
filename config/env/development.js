@@ -1,7 +1,7 @@
 'use strict';
 
-module.exports = {
-  db: 'mongodb://' + (process.env.DB_PORT_27017_TCP_ADDR || 'localhost') + '/mean-dev',
+module.exports = { 
+  db: 'mongodb://boss:dbpassword@ds037601.mongolab.com:37601/heroku_app35033122',
   debug: true,
   //  aggregate: 'whatever that is not false, because boolean false value turns aggregation off', //false
   aggregate: false,
